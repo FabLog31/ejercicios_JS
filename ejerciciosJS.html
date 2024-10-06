@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIOS JS</title>
+
+    <!-- CSS de la calculadora -->
+
+    <link rel="stylesheet" href="./styles/estilos.css">
+
+    <!-- Script -->
+
+    <script async src="/Scripts/ejercicios.js"></script>
+
+    <!-- async -> cargue primero su html y luego ejecute el js -->
+    <script async src="./DOM.js"></script>
+</head>
+
+<body>
+    <h1> EJERCICIOS DE JAVASCRIPT </h1>
+
+    <h3> Esquemas de control de flujo </h3>
+
+    <ul>
+        <li> Secuencias</li>
+        <li> Condicionales </li>
+        <li> Ciclos </li>
+    </ul>
+
+    <section>
+    <h3>EJERCICIO MANIPULACIÓN DEL DOM CON JS</h3>
+    <p>7. Hacer un programa que reciba un nombre por parte del usuario, si se recibió nombre por parte del usuario,
+        saludarlo con ese nombre, si no, sólo decir 'Hola, desconocido' con Manejo de DOM</p>
+
+    <!-- es el texto que acompaña lo inputs -->
+    <label for="nombre">Ingrese su nombre</label>
+    <!-- para datos de entrada - informacion que suministra el usuario -->
+    <input type="text" id="nombre">
+    <br>
+    <br>
+    <button onclick="saludarUsuario()">Saludar</button>
+    <br>
+    <br>
+    <p class="mostrarSaludo">En esta etiqueta se va a saludar</p>
+
+    <!-- <span>es una etiqueta con el objetivode dar estilos css, para mostrar mensajes dedl js, mensajes cortos, que no son ni títulos ni párrafos largos</span> -->
+    </section>
+</body>
+
+</html>
